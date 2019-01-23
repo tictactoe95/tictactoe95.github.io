@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    width: 100vw;   
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.alertmessage{
+    text-align: center;
+    color: red;
+    text-transform: capitalize;
+}
+.player_info{
+text-align: center;
+}
+.wrapper
+{
+   height: 400px;
+   width: 400px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-gap: 5px;
+}
+
+
+.sub-contain
+{
+    box-sizing: border-box;
+    background-color:#6A89CC;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 0;
+}
+
+.sub-contain:hover{
+    background-color: rgb(46, 89, 180);
+}
+
+.choose_section
+{
+  width: 20%; 
+  margin: auto;
+  padding: 20px 0px;
+}
+.choose_text{
+    text-align: center;
+}
+.mark{
+    text-align: center;
+    background-color: #6A89CC;
+    margin-top: 10px;
+    color: #fff;
+}
